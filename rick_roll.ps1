@@ -12,7 +12,7 @@ $o=New-Object -ComObject WScript.Shell
             $o.SendKeys("{CAPSLOCK}");Start-Sleep -Seconds $pauseTime
         }
     }
-start-process "C:\Program Files\Google\Chrome\Application\chrome.exe" https://www.youtube.com/watch?v=dQw4w9WgXcQ
+start-process "C:\Program Files\Google\Chrome\Application\chrome.exe" https://www.youtube.com/watch?v=BBJa32lCaaY
 }
 Target-Comes
 
