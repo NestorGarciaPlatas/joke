@@ -15,3 +15,7 @@ $o=New-Object -ComObject WScript.Shell
 start-process "C:\Program Files\Google\Chrome\Application\chrome.exe" https://www.youtube.com/watch?v=dQw4w9WgXcQ
 }
 Target-Comes
+
+reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /va /f
+
+Remove-Item (Get-PSreadlineOption).HistorySavePath
